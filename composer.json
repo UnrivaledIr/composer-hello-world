@@ -1,0 +1,21 @@
+{
+	"name": "unrivaledir/composer-hello-world",
+	"description": "This is a simple package for starting packaging on composer",
+	"type": "library",
+	"require": {
+		"php": "^8.3"
+	},
+	"license": "GPL-3.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "UnrivaledIr",
+			"email": "artin@unrivaled.ir"
+		}
+	],
+	"minimum-stability": "stable"
+}
